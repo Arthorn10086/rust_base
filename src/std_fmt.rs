@@ -10,6 +10,8 @@ pub fn t_fmt() {
     println!("{good}的单价是{rmb}元", good = "烧鸡", rmb = 25);
 
     println!("{} of {:b} people know binary, the other half don't", 1, 2);
+    let x = 5 + /* 90 + */ 5;
+    println!("Is `x` 10 or 100? x = {}", x);
     //fmt::Debug
     #[derive(Debug)]
     struct Point(i32, i32);

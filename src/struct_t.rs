@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 //元组结构体
 #[derive(Debug)]
 struct Point(i32, i32);
